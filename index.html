@@ -162,14 +162,17 @@
 
           <template>
             <h5>Waifu</h5>
-            <img src="FBK.jpg" width="214" height="204">
+            <img src="FBK.jpg" width="200" height="200">
           </template>
 
           <script>
+            var called = false
             function showContent() {
-              var temp = document.getElementsByTagName("template")[0];
-              var clon = temp.content.cloneNode(true);
-              document.body.appendChild(clon);
+              if (called == false){
+                var temp = document.getElementsByTagName("template")[0];
+                var clon = temp.content.cloneNode(true);
+                document.body.appendChild(clon);
+              }
             }
           </script>
           <pre>
