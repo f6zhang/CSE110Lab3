@@ -158,7 +158,20 @@
             <summary>FBK</summary>
             <p>A cute girl who is my waifu.</p>
           </details>
-          <button type="button">Click Me if you love my waifu!</button>
+          <button onclick="showContent()">Show my waifu image</button>
+
+          <template>
+            <h5>Waifu</h5>
+            <img src="FBK.jpg" width="214" height="204">
+          </template>
+
+          <script>
+            function showContent() {
+              var temp = document.getElementsByTagName("template")[0];
+              var clon = temp.content.cloneNode(true);
+              document.body.appendChild(clon);
+            }
+          </script>
           <pre>
           
           
