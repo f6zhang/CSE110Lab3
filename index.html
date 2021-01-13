@@ -60,9 +60,14 @@
             <li><pre><code>while True:
     print("Hello world!")</code></pre></li>
           </ol>
-          <canvas width="200" height="200" style="border:2px solid #000000;">
+          <canvas id="canvas" width="200" height="200" style="border:2px solid #000000;">
             This is a big canvas
           </canvas>
+          <script>
+            var c = document.getElementById("canvas");
+            var txt = c.getContext("2d");
+            txt.fillText("Hello World");
+          </script>
           <p>Here is my waifu!</p>
           <picture>
             <source media="(min-width:650px)" srcset="FBK.jpg">
