@@ -73,5 +73,9 @@ picture + p{
   left: 30px;
 }
 li.special{
-  position: sticky;
+  position: fixed;
+}
+div.parent{
+  display: flex;
+  
 }
