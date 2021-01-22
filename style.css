@@ -63,6 +63,7 @@ footer > p{
 }
 canvas ~ p{
   display: block;
+  color: orange;
 }
 picture + p{
   
