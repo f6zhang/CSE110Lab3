@@ -76,6 +76,21 @@ li.special{
   position: fixed;
 }
 div.parent{
+  width: 300px;
+  height: 500px;
   display: flex;
-  
+  justify-content: center;
+  flex-flow: column wrap;
+  align-items: center;
+  border: 2pt solid blue;
+}
+div.child1{
+  width:100px;
+  height:200px;
+  border: 2pt solid yellow;
+}
+div.child1{
+  width:200px;
+  height:100px;
+  border: 2pt solid red;
 }
