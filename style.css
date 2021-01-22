@@ -24,6 +24,18 @@ video{
   margin-bottom: 40px; 
   margin-left: 50px; 
 }
+svg{
+  width: 50%;
+  height: 50%;
+  border: 12pt solid green;
+  padding: 12px 12px 12px 12px;
+  margin: 20px 20px 20px 20px;
+}
+form{
+  width: 50%;
+  height: 50%;
+  margin:auto
+}
 #section1{
   color: red;
 }
