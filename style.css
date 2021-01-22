@@ -116,6 +116,7 @@ div.gridchild1{
 div.gridchild2{
   width:100px;
   height:200px;
+  background-color: red;
   border: 2pt solid yellow;
   grid-column-start: 2;
   grid-column-end: 5;
