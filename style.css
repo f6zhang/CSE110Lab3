@@ -99,6 +99,7 @@ div.gridparent{
   height: 300px;
   display: grid;
   border: 2pt solid black;
+  background-color: grey;
   grid-template-columns: 10% 20% auto 20% 10%;
   grid-template-rows: 25% 25% auto;
   column-gap: 10px;
@@ -116,7 +117,6 @@ div.gridchild1{
 div.gridchild2{
   width:100px;
   height:200px;
-  background-color: red;
   border: 2pt solid yellow;
   grid-column-start: 2;
   grid-column-end: 5;
