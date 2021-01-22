@@ -3,13 +3,13 @@
   background-color: rgb(240, 240, 240);
 }
 .main-container{
-  
-}
-#section1{
   border-style: inset;
   border-color: #696969;
   border-width: 1;
   border-radius: 5px;
+}
+#section1{
+
 }
 h1{
   
