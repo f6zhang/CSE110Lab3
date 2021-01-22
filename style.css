@@ -14,7 +14,7 @@ h1{
 [title="recursion"]{
   border-style: inset;
   border-color: #696969;
-  border-width: 1px;
+  border-width: thin;
   border-radius: 5px;
 }
 h2:hover{
