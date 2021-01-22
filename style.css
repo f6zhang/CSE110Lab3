@@ -40,6 +40,8 @@ form{
   color: red;
 }
 h1{
+  text-align: center;
+  text-decoration: underline;
   color: rgb(125,255,255);
 }
 [title="recursion"]{
