@@ -5,12 +5,6 @@
 .main-container{
   border: 12pt solid blue;
 }
-figure{
-  border-style: inset;
-  border-color: #696969;
-  border-width: thin;
-  border-radius: 5px;
-}
 video{
   width: 40vw;
   height: 40vh;
@@ -145,4 +139,11 @@ div.gridchild3{
     border-radius: 5px;
   }
 }
-
+@media screen and (min-width: 600px) {
+  figure{
+    border-style: inset;
+    border-color: purple;
+    border-width: thin;
+    border-radius: 5px;
+  }
+}
