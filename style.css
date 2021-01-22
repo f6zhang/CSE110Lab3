@@ -1,13 +1,12 @@
 /* This is style css file */
 *{
   font-family: 'Open Sans', sans-serif;
+}
+.main-container{
   border-style: inset;
   border-color: #696969;
   border-width: thin;
   border-radius: 5px;
-}
-.main-container{
-  
 }
 #section1{
   color: red;
