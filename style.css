@@ -129,7 +129,7 @@ div.gridchild2{
 div.gridchild3{
   width:100px;
   height:200px;
-  border: 2pt solid yellow;
+  border: 2pt solid orange;
   grid-column-start: 3;
   grid-column-end: 4;
   grid-row-start: 2;
