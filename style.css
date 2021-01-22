@@ -40,6 +40,7 @@ form{
   color: red;
 }
 h1{
+  position: fixed;
   text-align: center;
   text-decoration: underline;
   color: rgb(125,255,255);
@@ -73,7 +74,7 @@ picture + p{
   left: 30px;
 }
 li.special{
-  position: fixed;
+  position: static
 }
 div.parent{
   width: 300px;
