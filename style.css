@@ -98,8 +98,8 @@ div.gridparent{
   width: 500px;
   height: 300px;
   display: grid;
-  grid-template-columns: 10% 20% auto 20% 10%;
-  grid-template-rows: 25% 25% auto;
+  grid-template-columns: 50px 100px auto 100px 50px;
+  grid-template-rows: 75px 75px auto;
   grid-gap: 10px;
   border: 2pt solid black;
   background-color: grey;
