@@ -66,8 +66,9 @@ canvas ~ p{
   color: orange;
 }
 picture + p{
-  
+  position: relative;
+  left: 30px;
 }
 li.special{
-  
+  position: sticky;
 }
