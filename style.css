@@ -3,7 +3,7 @@
   font-family: 'Open Sans', sans-serif;
 }
 .main-container{
-
+  border: 12pt solid blue;
 }
 figure{
   border-style: inset;
@@ -40,10 +40,10 @@ form{
   color: red;
 }
 h1{
-  position: fixed;
   text-align: center;
   text-decoration: underline;
   color: rgb(125,255,255);
+  position: fixed;
 }
 [title="recursion"]{
   max-width: 60%;
@@ -105,8 +105,8 @@ div.gridparent{
   height: 300px;
   display: grid;
   border: 2pt solid black;
-  grid-template-columns: 10% 20% auto 20% 10%;
-  grid-template-rows: 25% 25% auto;
+  grid-template-rows: 10% 20% auto 20% 10%;
+  grid-template-columns: 25% 25% auto;
   column-gap: 10px;
   row-gap: 10px;
 }
@@ -137,5 +137,12 @@ div.gridchild3{
   grid-row-start: 2;
   grid-row-end: 4;
 }
-
+@media screen and (max-width: 600px) {
+  figure{
+    border-style: inset;
+    border-color: blue;
+    border-width: thin;
+    border-radius: 5px;
+  }
+}
 
