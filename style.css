@@ -98,12 +98,12 @@ div.gridparent{
   width: 500px;
   height: 300px;
   display: grid;
-  border: 2pt solid black;
-  background-color: grey;
   grid-template-columns: 10% 20% auto 20% 10%;
   grid-template-rows: 25% 25% auto;
   column-gap: 10px;
   row-gap: 10px;
+  border: 2pt solid black;
+  background-color: grey;
 }
 div.gridchild1{
   width:200px;
