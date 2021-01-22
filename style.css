@@ -18,10 +18,10 @@ h1{
   
 }
 h2:hover{
-  
+  color:#00ff00;
 }
 h3,h4{
-  
+  color:hsl(89, 43%, 51%);
 }
 aside p{
   
