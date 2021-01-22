@@ -57,10 +57,10 @@ aside p{
   
 }
 footer > p{
-  
+  display: inline;
 }
 canvas ~ p{
-  
+  display: block;
 }
 picture + p{
   
