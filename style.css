@@ -1,36 +1,143 @@
+/* This is style css file */
 *{
-  
+  font-family: 'Open Sans', sans-serif;
 }
 .main-container{
-  
+  border: 12pt solid blue;
+}
+video{
+  width: 40vw;
+  height: 40vh;
+  border: 12pt solid green;
+  padding-top: 1pc;
+  padding-right: 1.2pc; 
+  padding-bottom: 1.4pc; 
+  padding-left: 1.6pc; 
+  margin-top: 20px;
+  margin-right: 30px; 
+  margin-bottom: 40px; 
+  margin-left: 50px; 
+}
+svg{
+  width: 50%;
+  height: 50%;
+  border: 12pt solid green;
+  padding: 12px 12px 12px 12px;
+  margin: 20px 20px 20px 20px;
+}
+form{
+  width: 20%;
+  height: 50%;
+  margin: auto;
 }
 #section1{
-  
+  text-align: center;
+  color: red;
 }
 h1{
-  
+  text-decoration: underline;
+  color: rgb(125,255,255);
+  position: fixed;
 }
 [title="recursion"]{
-  
+  max-width: 60%;
+  min-width: 40%;
 }
-h2:hover{
-  
+a:hover{
+  color:#00ff00;
+}
+a:active{
+  background-color: pink;
 }
 h3,h4{
-  
+  color:hsl(89, 43%, 51%);
 }
 aside p{
-  
+  color: yellow;
 }
 footer > p{
-  
+  display: inline;
+  color: blue;
 }
 canvas ~ p{
-  
+  display: block;
+  color: orange;
 }
 picture + p{
-  
+  position: relative;
+  left: 30px;
 }
 li.special{
-  
+  position: static
+}
+div.parent{
+  width: 300px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  flex-flow: column wrap;
+  align-items: center;
+  border: 2pt solid blue;
+}
+div.child1{
+  width:100px;
+  height:200px;
+  border: 2pt solid yellow;
+}
+div.child2{
+  width:200px;
+  height:100px;
+  border: 2pt solid red;
+}
+div.child3{
+  width:75px;
+  height:75px;
+  border: 2pt solid green;
+}
+div.gridparent{
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 50px 100px auto 100px 50px;
+  grid-template-rows: 75px 75px auto 75px 75px;
+  grid-gap: 10px;
+  border: 2pt solid black;
+  background-color: grey;
+}
+div.gridchild1{
+  border: 2pt solid red;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  grid-row-start:1;
+  grid-row-end: 2;
+}
+div.gridchild2{
+  border: 2pt solid yellow;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 2;
+  grid-row-end: 3;
+}
+div.gridchild3{
+  border: 2pt solid orange;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 3;
+  grid-row-end: 5;
+}
+@media screen and (max-width: 1000px) {
+  figure{
+    border-style: inset;
+    border-color: blue;
+    border-width: thin;
+    border-radius: 5px;
+  }
+}
+@media screen and (min-width: 1000px) {
+  figure{
+    border-style: inset;
+    border-color: purple;
+    border-width: thin;
+    border-radius: 5px;
+  }
 }
