@@ -1,9 +1,13 @@
 /* This is style css file */
 *{
   font-family: 'Open Sans', sans-serif;
+  color: rgb(40,240,240);
 }
 .main-container{
-  color: rgb(40,240,240);
+  border-style: inset;
+  border-color: #696969;
+  border-width: thin;
+  border-radius: 5px;
 }
 #section1{
 
@@ -12,10 +16,7 @@ h1{
   
 }
 [title="recursion"]{
-  border-style: inset;
-  border-color: #696969;
-  border-width: thin;
-  border-radius: 5px;
+
 }
 h2:hover{
   
